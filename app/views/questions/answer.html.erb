@@ -1,0 +1,11 @@
+<h1>Questions#answer</h1>
+<!-- <p>Find me in app/views/questions/answer.html.erb</p> -->
+<div class='banner'>
+  <h2>Question: <%= @question %></h2>
+  <p> - You </p>
+  <h2>Answer: <%= @answer %></h2>
+  <p> - Coach </p>
+</div>
+
+<h3><%= link_to "Ask a new question", ask_path %></h3>
+<!-- Add a link to /ask on the answer.html.erb view using the link_to Rails helper. -->
